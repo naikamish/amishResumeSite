@@ -14,90 +14,103 @@ and open the template in the editor.
         <?php
         // put your code here
         ?>
+        <!--Banner Section-->
         <br /><br /><br /><br /><br /><br /><br /><br /><br />
         <img src="images/banner_tree_tale_color_crea-f.png" style="width:500px; height:auto;">
         <br /><br /><br /><br /><br /><br /><br /><br /><br />
-        <!About Me Section-->
+
+
+        <!--About Section-->
         <br /><br />
-        <div style="background-color:#ffeb3b; display:inline-block; width:100%; text-align: center; color:#000000;">
+        <div class="section section-yellow">
             <br /><br />
-            <div style="display:inline-block; width:200px; vertical-align: top;">ABOUT</div>
-            <div style="display:inline-block; width:800px; vertical-align: top;">I am an aspiring software and web developer who has experience working in Java and PHP on the back-end and HTML, CSS, and Javascript on the front-end. I am also working towards a Master of Computer Information Systems degree from Sacred Heart University. My interests are programming, movies, and TV.</div>
+            <div class="section-title">ABOUT</div>
+            <div class="section-content">I am an aspiring software and web developer who has experience working in Java and PHP on the back-end and HTML, CSS, and Javascript on the front-end. I am also working towards a Master of Computer Information Systems degree from Sacred Heart University. My interests are programming, movies, and TV.</div>
             <br /><br /><br />
         </div>
         <br /><br /><br />
+
+
         <!--Education Section-->
-        <div style="display:inline-block; width:200px; vertical-align: top;">EDUCATION</div>
-        <div style="display:inline-block; width:800px; vertical-align: top;">
-            <div style="display:inline-block; width:600px;">
-                <h2>Sacred Heart University</h2>
-                <h3>Master of Computer Information Systems</h3>
-            </div>
-            <div style="display:inline-block; width:195px;">
-                <h3>May 2016</h3>
-            </div>
-            <br /><br />
-            <div style="display:inline-block; width:600px;">
-                <h2>University of Connecticut</h2>
-                <h3>Bachelor of Science in Actuarial Science</h3>
-            </div>
-            <div style="display:inline-block; width:195px;">
-                <h3>May 2013</h3>
+        <div class="section">
+            <div class="section-title">EDUCATION</div>
+            <div class="section-content">
+                <div class="section-content-info">
+                    <h2>Sacred Heart University</h2>
+                    <h3>Master of Computer Information Systems</h3>
+                </div>
+                <div class="section-content-dates">
+                    <h3>May 2016</h3>
+                </div>
+                <br /><br /><br /><br />
+                <div class="section-content-info">
+                    <h2>University of Connecticut</h2>
+                    <h3>Bachelor of Science in Actuarial Science</h3>
+                </div>
+                <div class="section-content-dates">
+                    <h3>May 2013</h3>
+                </div>
             </div>
         </div>
         <br /><br /><br /><br /><br /><br />
+
+
         <!--Experience Section-->
-        <div style="display:inline-block; width:200px; vertical-align: top;">EXPERIENCE</div>
-        <div style="display:inline-block; width:800px; vertical-align: top;">
-            <div style="display:inline-block; width:600px;">
-                <h2>Netc LLC.</h2>
-                <h3>Web Design Intern</h3>
-                <ul>
-                    <li>Independently redesigned the company's website in order to make it more user friendly for customers</li>
-                    <li>Work on front end design using HTML, CSS, Javascript, and JQuery</li>
-                    <li>Also worked on back end aspects with PHP</li>
-                </ul>
-            </div>
-            <div style="display:inline-block; width:195px;">
-                <h3>March 2015 - Present</h3>
-            </div>
-            <br /><br />
-            <div style="display:inline-block; width:600px;">
-                <h2>A100</h2>
-                <h3>Software Developer Apprentice</h3>
-                <ul>
-                    <li>Created web applications using NodeJS, Meteor, and MongoDB</li>
-                    <li>Worked on team projects using agile methodology for software development</li>
-                    <li>Learned to use git as a version control system</li>
-                </ul>
-            </div>
-            <div style="display:inline-block; width:195px;">
-                <h3>October 2015 - Present</h3>
+        <div class="section">
+            <div class="section-title">EXPERIENCE</div>
+            <div class="section-content">
+                <div class="section-content-info">
+                    <h2>Netc LLC.</h2>
+                    <h3>Web Design Intern</h3>
+                    <ul>
+                        <li>Independently redesigned the company's website in order to make it more user friendly for customers</li>
+                        <li>Work on front end design using HTML, CSS, Javascript, and JQuery</li>
+                        <li>Also worked on back end aspects with PHP</li>
+                    </ul>
+                </div>
+                <div class="section-content-dates">
+                    <h3>March 2015 - Present</h3>
+                </div>
+                <br /><br /><br /><br />
+                <div class="section-content-info">
+                    <h2>A100</h2>
+                    <h3>Software Developer Apprentice</h3>
+                    <ul>
+                        <li>Created web applications using NodeJS, Meteor, and MongoDB</li>
+                        <li>Worked on team projects using agile methodology for software development</li>
+                        <li>Learned to use git as a version control system</li>
+                    </ul>
+                </div>
+                <div class="section-content-dates">
+                    <h3>October 2015 - Present</h3>
+                </div>
             </div>
         </div>
         <br /><br />
+
+
         <!--Skills Section-->
-        <div style="background-color:#ffeb3b; display:inline-block; width:100%; text-align: center; color:#000000;">
+        <div class="section section-yellow">
             <br /><br />
-            <div style="display:inline-block; width:200px; vertical-align: top;">SKILLS</div>
-            <div class="skills-section" style="display:inline-block; width:800px; vertical-align: top;">
-                <div style="display:inline-block; width:195px;">
-                    <img src="images/Java_logo.png" style="display:inline-block; height:100px; width:auto;">
+            <div class="section-title">SKILLS</div>
+            <div class="section-content skills-section-content">
+                <div>
+                    <img src="images/Java_logo.png">
                     <br />
                     <p>Java</p>
                 </div>
-                <div style="display:inline-block; width:195px;">
-                    <img src="images/cplusplus_logo.png" style="display:inline-block; height:100px; width:auto;">
+                <div>
+                    <img src="images/cplusplus_logo.png">
                     <br />
                     <p>C++</p>
                 </div>
-                <div style="display:inline-block; width:195px;">
-                    <img src="images/html-css-javascript_logo.png" style="display:inline-block; height:100px; width:auto;">
+                <div>
+                    <img src="images/html-css-javascript_logo.png">
                     <br />
                     <p>HTML/CSS/Javascript</p>
                 </div>
-                <div style="display:inline-block; width:195px;">
-                    <img src="images/php-mysql_logo.png" style="display:inline-block; height:100px; width:auto;">
+                <div>
+                    <img src="images/php-mysql_logo.png">
                     <br />
                     <p>PHP/MySql</p>
                 </div>
@@ -105,20 +118,26 @@ and open the template in the editor.
             <br /><br />
         </div>
         <br /><br />
+
+
         <!--Contact Section-->
         <br /><br />
-        <div style="display:inline-block; width:200px; vertical-align: top;">CONTACT</div>
-        <div style="display:inline-block; width:265px; vertical-align: top; text-align:center;">
-            <span style="font-weight:bold;">Email</span><br>
-            <span>naikamish0822@gmail.com</span>
-        </div>
-        <div style="display:inline-block; width:265px; vertical-align: top; text-align:center;">
-            <span style="font-weight:bold;">Phone</span><br>
-            <span>203-913-5804</span>
-        </div>
-        <div style="display:inline-block; width:265px; vertical-align: top; text-align:center;">
-            <span style="font-weight:bold; text-align:left">Git</span><br>
-            <span>https://github.com/naikamish</span>
+        <div class="section">
+            <div class="section-title">CONTACT</div>
+            <div class="section-content contact-section-content">
+                <div>
+                    <span style="font-weight:bold;">Email</span><br />
+                    <span>naikamish0822@gmail.com</span><br />
+                </div>
+                <div>
+                    <span style="font-weight:bold;">Phone</span><br />
+                    <span>203-913-5804</span><br>
+                </div>
+                <div>
+                    <span style="font-weight:bold;">Git</span><br />
+                    <span>https://github.com/naikamish</span><br />
+                </div>
+            </div>
         </div>
         <br /><br /><br />
     </body>

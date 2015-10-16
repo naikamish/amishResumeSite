@@ -21,6 +21,20 @@ div{
     box-sizing: border-box;
     text-align:left;
     vertical-align:top;
+    display:inline-block; width:100%;
+}
+
+@media (max-width: 600px) {
+    div{
+        text-align:center;
+    }
+    ul{
+        text-align:left;
+    }
+}
+
+img{
+    max-width:100%;
 }
 
 h2{
@@ -36,10 +50,42 @@ h3{
    // color:#bbdefb;
 }
 
-.skills-section div{
-    text-align:center;
+.section{
+    width:100%; text-align:center;
 }
 
-.skills-section div p{
+.section-yellow{
+    background-color:#ffeb3b; color:#000000;
+}
+
+.section-title {
+    width:200px; vertical-align: top;
+}
+
+.section-content{
+    width:800px; vertical-align: top;
+}
+
+.section-content-info{
+    width:600px;
+}
+
+.section-content-dates{
+    width:195px;
+}
+
+.skills-section-content div{
+    width:195px; text-align:center;
+}
+
+.skills-section-content img{
+    height:100px; width:auto;
+}
+
+.skills-section-content div p{
     color:#448aff;
+}
+
+.contact-section-content div{
+    width:260px; vertical-align: top; text-align:center;
 }
