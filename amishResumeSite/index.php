@@ -2,7 +2,8 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>Amish Naik - Resume</title>
+        <link rel="shortcut icon" type="image/x-icon" href="images/icon.ico" />
         <link rel="stylesheet" type="text/css" href="css/styles.css">
     </head>
     <body>
