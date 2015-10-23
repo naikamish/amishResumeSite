@@ -30,14 +30,42 @@ img{
 h2{
     font-size:20px;
     margin:0;
-   // color:#2196f3;
    color:#ffeb3b;
 }
 
 h3{
     font-size:16px;
     margin:0;
-   // color:#bbdefb;
+}
+
+nav{
+    position:absolute;
+    left:0;
+    top:50%;
+    text-align: right;
+}
+
+nav ul{
+    list-style:none;
+    padding:0;
+}
+
+nav ul li{
+}
+
+nav ul li:nth-child(even){
+    background-color:#ffeb3b;
+}
+
+nav ul li:nth-child(odd){
+    background-color:#448aff;
+}
+
+nav ul li a{
+    color:inherit;
+    text-decoration: none;
+    display:block;
+    padding:0 0 0 10px;
 }
 
 .section{
@@ -45,7 +73,8 @@ h3{
 }
 
 .section-yellow{
-    background-color:#ffeb3b; color:#000000;
+    background-color:#ffeb3b; 
+    color:#000000;
 }
 
 .section-title {
