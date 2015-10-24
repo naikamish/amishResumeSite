@@ -30,7 +30,7 @@ img{
 h2{
     font-size:20px;
     margin:0;
-   color:#ffeb3b;
+    color:#ffeb3b;
 }
 
 h3{
@@ -89,7 +89,22 @@ nav{
             }
 
 .section{
-    width:100%; text-align:center;
+    width:85%; 
+    text-align:center;
+    transition: width .5s linear;
+}
+
+.hover-effect{
+    height:0;
+    transition: height .5s linear;
+}
+
+.section:hover .hover-effect{
+    height:50px;
+}
+
+.section:hover{
+    width:99%;
 }
 
 .section-yellow{
@@ -98,11 +113,13 @@ nav{
 }
 
 .section-title {
-    width:200px; vertical-align: top;
+    width:200px; 
+    vertical-align: top;
 }
 
 .section-content{
-    width:800px; vertical-align: top;
+    width:800px; 
+    vertical-align: top;
 }
 
 .section-content-info{
@@ -114,11 +131,13 @@ nav{
 }
 
 .skills-section-content div{
-    width:195px; text-align:center;
+    width:195px; 
+    text-align:center;
 }
 
 .skills-section-content img{
-    height:100px; width:auto;
+    height:100px; 
+    width:auto;
 }
 
 .skills-section-content div p{
@@ -126,5 +145,8 @@ nav{
 }
 
 .contact-section-content div{
-    width:260px; vertical-align: top; text-align:center;
+    width:260px; 
+    vertical-align: top; 
+    text-align:center;
 }
+/*~*/
