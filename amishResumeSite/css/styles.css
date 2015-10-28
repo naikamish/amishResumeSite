@@ -5,6 +5,7 @@ body{
     background-color:#1d1d1d;
     /*color:#ffffff;*/
     width:100%;
+    font-size:16px;
 }
 
 div{
@@ -111,9 +112,15 @@ nav{
 animation: pulse 3s infinite;
 }
 
+.hello{
+    height:0;
+}
+
+
+
 @keyframes pulse {
     0%, 100% {width:85%; margin:0; padding:0; box-shadow:0px 0px rgba(255,255,255, 0.2);}
-    50% {width:100%; margin:-20px; padding:20px; box-shadow:5px 5px rgba(255,255,255, 0.2)}
+    50% {width:87%; margin:20px 1% -20px 0; padding:0px 20px 0 0; box-shadow:5px 5px rgba(255,255,255, .8);}
 }
 
 .section-title {
