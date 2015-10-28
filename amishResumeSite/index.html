@@ -8,11 +8,6 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     </head>
     <body>
-        <!--Banner Section-->
-        <br><br><br><br><br><br><br><br><br>
-        <img src="images/banner_tree_tale_color_crea-f.png" style="width:500px; height:auto;">
-        <br><br><br><br><br><br><br><br><br>
-
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
@@ -23,6 +18,12 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
+
+
+        <!--Banner Section-->
+        <br><br><br><br><br><br><br><br><br>
+        <img src="images/banner_tree_tale_color_crea-f.png" id="banner">
+        <br><br><br><br><br><br><br><br><br>
      
         <!--About Section-->
         <br><br>
@@ -144,10 +145,14 @@
             </div>
         </div>
         <script>
+            var oldWidth = $(".section").css("width");
             $(".section").hover(function(){
-                $(this).animate({margin:"-20px",padding:"20px",width:"100%"}, 2000);
+                var newWidth = $("body").css("width");
+                $(this).css("box-shadow","5px 5px rgba(255,255,255, 0.2)");
+                $(this).animate({margin:"-20px",padding:"20px", width:newWidth}, 500);
             }, function(){
-                $(this).animate({margin:0,padding:0,width:"85%"});
+                $(this).animate({margin:0,padding:0, width:oldWidth}, 500);
+                $(this).css("box-shadow","none");
             });
         </script>
         <br><br><br>

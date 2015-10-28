@@ -4,6 +4,7 @@ body{
     text-align:center;
     background-color:#1d1d1d;
     /*color:#ffffff;*/
+    width:100%;
 }
 
 div{
@@ -11,7 +12,7 @@ div{
     box-sizing: border-box;
     text-align:left;
     vertical-align:top;
-    display:inline-block; width:100%;
+    display:inline-block;
 }
 
 @media (max-width: 600px) {
@@ -87,7 +88,10 @@ nav{
                 display:block;
             }
 
-
+#banner{
+    width:500px; 
+    height:auto;
+}
 /*.section:nth-child(even){
     background-color:#653BFF;
 }
