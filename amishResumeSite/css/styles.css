@@ -3,7 +3,7 @@ body{
     margin:auto;
     text-align:center;
     background-color:#1d1d1d;
-    color:#ffffff;
+    /*color:#ffffff;*/
 }
 
 div{
@@ -30,7 +30,6 @@ img{
 h2{
     font-size:20px;
     margin:0;
-    color:#ffeb3b;
 }
 
 h3{
@@ -88,28 +87,19 @@ nav{
                 display:block;
             }
 
+
+/*.section:nth-child(even){
+    background-color:#653BFF;
+}
+
+.section:nth-child(odd){
+    background-color:#ffeb3b;
+}*/
+
 .section{
     width:85%; 
     text-align:center;
-    transition: width .5s linear;
-}
-
-.hover-effect{
-    height:0;
-    transition: height .5s linear;
-}
-
-.section:hover .hover-effect{
-    height:50px;
-}
-
-.section:hover{
-    width:99%;
-}
-
-.section-yellow{
-    background-color:#ffeb3b; 
-    color:#000000;
+    background-color:#ffeb3b;
 }
 
 .section-title {
@@ -138,10 +128,6 @@ nav{
 .skills-section-content img{
     height:100px; 
     width:auto;
-}
-
-.skills-section-content div p{
-    color:#448aff;
 }
 
 .contact-section-content div{
