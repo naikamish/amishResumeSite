@@ -159,4 +159,8 @@ nav{
     vertical-align: top; 
     text-align:center;
 }
+
+.contact-section-content div span:first-child{
+    font-weight:bold;
+}
 /*~*/
