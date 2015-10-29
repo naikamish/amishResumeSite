@@ -61,11 +61,11 @@ nav{
         }
 
         nav ul li:nth-child(even){
-            background-color:#ffeb3b;
+            background-color:#653bff;
         }
 
         nav ul li:nth-child(odd){
-            background-color:#448aff;
+            background-color:#ffeb3b;
         }
 
             nav ul li a{
@@ -89,17 +89,17 @@ nav{
                 display:block;
             }
 
-#banner{
+.banner-img{
     width:500px; 
     height:auto;
 }
-/*.section:nth-child(even){
-    background-color:#653BFF;
+.section:nth-child(even){
+    background-color:#ffeb3b;
 }
 
 .section:nth-child(odd){
-    background-color:#ffeb3b;
-}*/
+    background-color:#653bff;
+}
 
 .section{
     width:85%; 
@@ -107,16 +107,18 @@ nav{
     padding:0; 
     box-shadow:0px 0px rgba(255,255,255, 0.2);
     text-align:center;
-    background-color:#ffeb3b;
+    position:relative;
+    z-index:0;
     transition:all 1s;
 }
 
 .section:hover{
     /*animation: pulse 3s infinite;*/
-    width:87%; 
-    margin:20px 1% -20px 0; 
+    width:calc(85% + 20px); 
+    margin:20px 20px -20px 0; 
     padding:0px 20px 0 0; 
-    box-shadow:5px 5px rgba(255,255,255, .8);
+    box-shadow:5px 5px rgba(255,255,255, .3);
+    z-index: 1;
 }
 
 /*@keyframes pulse {
