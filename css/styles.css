@@ -65,7 +65,7 @@ nav{
         }
 
         nav ul li:nth-child(even){
-            background-color:#653bff;
+            background-color:#a289ff;
         }
 
         nav ul li:nth-child(odd){
@@ -102,7 +102,7 @@ nav{
 }
 
 .section:nth-child(odd){
-    background-color:#653bff;
+    background-color:#a289ff;
 }
 
 .section{
