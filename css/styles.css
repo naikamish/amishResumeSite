@@ -16,12 +16,15 @@ div{
     display:inline-block;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 950px) {
     div{
         text-align:center;
     }
     ul{
         text-align:left;
+    }
+    .contact-section-content div, .skills-section-content div{
+        width:300px;
     }
 }
 
@@ -44,6 +47,7 @@ nav{
     left:0;
     top:35%;
     text-align: right;
+    z-index: 2;
 }
 
     nav ul{
